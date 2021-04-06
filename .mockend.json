@@ -9,6 +9,7 @@
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
+    "user": "User",
     "comments": "Comment[]"
   },
   "Comment": {
