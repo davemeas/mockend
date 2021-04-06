@@ -1,7 +1,8 @@
 {
   "User": {
     "id": "int",
-    "name": "string"
+    "name": "string",
+    "posts": "Post[]"
   },
   "Post": {
     "title": "string",
