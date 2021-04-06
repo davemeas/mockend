@@ -1,8 +1,21 @@
 {
+  "Sandwich": {
+    "name": "string",
+    "ingredientCount": "int",
+    "isSpicy": "boolean",
+    "isCustom": "boolean",
+    "reviews": "Review[]"
+  },
+  "Review": {
+    "starRating": "int",
+    "body": "string",
+    "user": "User"
+  },
   "User": {
     "id": "int",
     "name": "string",
-    "posts": "Post[]"
+    "posts": "Post[]",
+    "reviews": "Review[]"
   },
   "Post": {
     "title": "string",
