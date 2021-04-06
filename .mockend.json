@@ -1,4 +1,9 @@
 {
+  "User": {
+    "id": "int",
+    "name": "string"
+    "posts": "Post[]"
+  },
   "Post": {
     "title": "string",
     "views": "int",
