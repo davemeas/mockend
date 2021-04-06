@@ -8,7 +8,8 @@
     "views": "int",
     "published": "boolean",
     "createdAt": "date",
-    "comments": "Comment[]"
+    "comments": "Comment[]",
+    "user": "User",
   },
   "Comment": {
     "body": "string",
