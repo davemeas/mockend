@@ -9,7 +9,8 @@
   "Review": {
     "starRating": "int",
     "body": "string",
-    "user": "User"
+    "user": "User",
+    "sandwich": "Sandwich"    
   },
   "User": {
     "id": "int",
